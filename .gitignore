@@ -1,0 +1,47 @@
+##### .gitignore
+
+### Output
+*.[aod]
+*.so
+*.pcm
+*_C_ACLiC_dict.cxx
+*_C_ACLiC_linkdef.h
+*_C_ACLiC_map.in
+*_C_ACLiC_map.out
+
+### Temp
+*~
+.*~
+\#*\#
+.\#*\#
+*.swp
+.*.swp
+.DS_Store
+
+### File
+*.dat
+*.dat.gz
+*.root
+*.log
+*.pdf
+
+### Dir
+backup/
+bin/
+build/
+emulsion/
+lib/
+log
+log/
+old/
+output/
+pic
+root
+test/
+tmp/
+fieldmap
+data
+epics
+scaler/
+pattern/
+tarballs/
