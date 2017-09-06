@@ -1,7 +1,7 @@
 #!/bin/sh
 ##
 #  file: run.sh
-#  date: 2017.09.01
+#  date: 2017.09.05
 #
 #
 
@@ -9,7 +9,7 @@ work_dir=$(cd $(dirname $0); pwd)
 bin_dir=$work_dir/bin
 param_dir=$work_dir/param
 
-analyzer=$bin_dir/AlphaAna
+analyzer=$bin_dir/AlphaDNN
 
 network=$param_dir/deploy.prototxt
 caffemodel=$param_dir/snapshot_iter_43530.caffemodel
